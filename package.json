@@ -1,0 +1,27 @@
+{
+  "name": "@react-native/checkbox",
+  "version": "1.0.0",
+  "description": "Checkbox component for React Native",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickbattisti/react-native-checkbox.git"
+  },
+  "keywords": [
+    "react-native",
+    "checkbox",
+    "react-native-checkbox",
+    "react-native-checkbox-ios",
+    "react-native-checkbox-android"
+  ],
+  "author": "Patrick Battisti Forsthofer <1729patrick@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickbattisti/react-native-checkbox/issues"
+  },
+  "homepage": "https://github.com/patrickbattisti/react-native-checkbox#readme",
+  "dependencies": {
+    "@react-native-community/checkbox": "0.3.0",
+    "styled-components": "5.0.1"
+  }
+}
