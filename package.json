@@ -1,5 +1,5 @@
 {
-  "name": "@react-native/checkbox",
+  "name": "@react-native-form/checkbox",
   "version": "1.0.0",
   "description": "Checkbox component for React Native",
   "main": "lib/index.js",
@@ -20,8 +20,11 @@
     "url": "https://github.com/patrickbattisti/react-native-checkbox/issues"
   },
   "homepage": "https://github.com/patrickbattisti/react-native-checkbox#readme",
-  "dependencies": {
+  "devDependencies": {
     "@react-native-community/checkbox": "0.3.0",
     "styled-components": "5.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   }
 }
