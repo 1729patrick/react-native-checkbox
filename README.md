@@ -7,7 +7,7 @@
 
 React Native component used to select a single value from a range of values.
 
-| ![IOS Default](screenShots/iosDefault.png) | ![IOS Label Left](screenShots/iosLabelLeft.png) | ![IOS Native Component](screenShots/iosNativeComponent.png) | 
+| ![IOS Default](screenShots/iosDefault.png) | ![IOS Label Left](screenShots/iosLeftLabel.png) | ![IOS Native Component](screenShots/iosNativeComponent.png) | 
 | :---:                                      | :---:                                           | :---:                                                       |
 | IOS Default                                | IOS Left Label                                  | IOS Native Component                                        |
 
@@ -38,7 +38,7 @@ import Checkbox from '@react-native-form/checkbox';
 ```javascript
  <Checkbox
     label="Red Rising"
-    labelPosition="right"
+    positionLabel="right"
     marginTop={0}
     nativeComponent={false}
     color="#457afb"
@@ -60,14 +60,14 @@ import Checkbox from '@react-native-form/checkbox';
 | Prop name             | Description                                                                                                                     | Default         |             
 | :---                  | :---                                                                                                                            | :---:           |
 | ```label```           | The label of the checkbox.                                                                                                      | ```''```        |
-| ```labelPosition```   | The position of the label. Must be ```left``` or ```right```.                                                                   | ```right```     |
-| ```marginTop```       | The margin top of the container.                                                                                                | ```0```         |
 | ```nativeComponent``` | If true the checkbox component is the Switch component, if else the checkbox is a RN component. Presents changes only on IOS.   | ```false```     |
-| ```color```           | The color displayed when checkbox is on.                                                                                        | ```#457afb```   |
 | ```disabled```        | If true the user won't be able to toggle the checkbox.                                                                          | ```false```     |
 | ```checked```         | If true the checkbox will be started active.                                                                                    | ```false```     |
 | ```value```           | The value of the checkbox.                                                                                                      | ```null```      |
 | ```onValueChange```   | Invoked with the new ```{ checked: boolean, label: string, value: any }``` value when the checkbox it changes.                  | ```() => {}```  |
+| ```color```           | The color displayed when checkbox is on.                                                                                        | ```#457afb```   |
+| ```positionLabel```   | The position of the label. Must be ```left``` or ```right```.                                                                   | ```right```     |
+| ```marginTop```       | The margin top of the container.                                                                                                | ```0```         |
 | ```labelStyle```      | The custom style of the label.                                                                                                  | ```{}```        |
 | ```containerStyle```  | The custom style of the container.                                                                                              | ```{}```        |
 | ```checkboxStyle```   | The custom style of the checkbox.                                                                                               | ```{}```        |
