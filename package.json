@@ -1,6 +1,6 @@
 {
   "name": "@react-native-form/checkbox",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Checkbox component for React Native",
   "main": "lib/index.js",
   "repository": {
@@ -12,8 +12,8 @@
     "checkbox",
     "react-native-checkbox",
     "react-native-checkbox-ios",
-		"react-native-checkbox-android",
-		"react-native-checkbox-wrapper"
+    "react-native-checkbox-android",
+    "react-native-checkbox-wrapper"
   ],
   "author": "Patrick Battisti Forsthofer <1729patrick@gmail.com>",
   "license": "MIT",
