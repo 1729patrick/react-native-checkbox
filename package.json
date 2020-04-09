@@ -1,7 +1,7 @@
 {
   "name": "@react-native-form/checkbox",
-  "version": "1.0.6",
-  "description": "Checkbox component for React Native",
+  "version": "1.0.8",
+  "description": "React Native checkbox component for IOS + Android 🥳",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

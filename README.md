@@ -59,7 +59,7 @@ import Checkbox from '@react-native-form/checkbox';
 
 | Prop name             | Description                                                                                                                     | Default         |             
 | :---                  | :---                                                                                                                            | :---:           |
-| ```label```           | The label of the checkbox.                                                                                                      | ```''```        |
+| ```label```           | The label of the checkbox. Can be string or componente.                                                                                                     | ```''```        |
 | ```nativeComponent``` | If true the checkbox component is the Switch component, if else the checkbox is a RN component. Presents changes only on IOS.   | ```false```     |
 | ```disabled```        | If true the user won't be able to toggle the checkbox.                                                                          | ```false```     |
 | ```checked```         | If true the checkbox will be started active.                                                                                    | ```false```     |
